@@ -1,10 +1,14 @@
 {
-  "scripts": {
-    "format-code-html": "prettier --check --write index.html",
-    "format-code-css": "prettier --check --write styles/**",
-    "format-code-js": "prettier --check --write scripts/**"
-  },
-  "devDependencies": {
-    "prettier": "^2.7.1"
-  }
+	"scripts": {
+		"format-code-html": "prettier --check --write index.html",
+		"format-code-css": "prettier --check --write styles/**",
+		"format-code-js": "prettier --check --write scripts/**",
+		"lint-styles": "stylelint styles/*.css --fix"
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1",
+		"stylelint": "^14.11.0",
+		"stylelint-config-prettier": "^9.0.3",
+		"stylelint-config-standard": "^28.0.0"
+	}
 }
