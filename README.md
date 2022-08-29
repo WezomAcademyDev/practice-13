@@ -4,3 +4,4 @@
 -   Prettier
 -   Stylelint
 -   ESLint
+-   Live Server
